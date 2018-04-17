@@ -1,0 +1,68 @@
+<include file="Base:header" />
+
+<div class="head_title"><!-- HEAD TITLE -->
+
+   <a style="display: block;background:url(__IMG__/slider/news.jpg) center center no-repeat;background-size:cover;width:100%;height:350px;" href="#"></a>
+
+</div><!-- HEAD TITLE -->
+
+<div class="warpper">
+<div class="contains">
+
+<div class="breadcrumbs"><!-- BREADCRUMBS -->
+
+    <div class="container_12">
+
+            <span class="weizhi">当前您的位置：</span>
+
+            <a href="__APP__">{$Think.lang.T_RHOME}</a>
+
+            <span>>></span>
+
+            <span class="tit1">{$info.cname}</span>
+
+    </div>
+
+</div><!-- END BREADCRUMBS -->
+
+<div class="main"><!-- MAIN -->
+
+        <div class="text-head">
+
+            <h4 class="uppercase">{$info.title}</h4>
+
+            <div class="post-meta">
+
+                <p>{:date('Y-m-d',$info['published'])}
+
+                    <a href="javascript:;" class="icon_meta purple">{$auther}</a>
+
+                    <a href="javascript:;" class="icon_meta purple">{$Think.lang.T_VIEWTIMES}:{$info['click']}</a></p>
+
+            </div>
+
+        </div>
+
+
+
+            <div class="post-block"><!-- POST-BLOCK -->
+
+                <if condition="$info['image_id'] neq 0">
+
+                <a href="index.html"><img src="{:get_default_img($info['image_id'])}" alt="" width="700" height="280" border="0" /></a>
+
+                </if>
+
+                <p class="bottom">
+
+                {$info['content']}
+
+                </p>
+
+            </div><!-- END POST-BLOCK -->
+
+</div><!-- END MAIN -->
+</div>
+</div>
+
+<include file="Base:footer" />

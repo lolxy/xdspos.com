@@ -1,0 +1,37 @@
+<include file="Base:header" />
+
+
+<div class="head_title"><!-- HEAD TITLE -->
+    <if condition="$info.page_name eq '产品介绍'">
+    <a style="display: block;background:url(__IMG__/slider/cpjs.jpg) center center no-repeat;background-size:cover;width:100%;height:350px;" href="#"></a>
+    <elseif condition="$info.page_name eq '下载专区'"/>
+    <div style="display: block;background:url(__IMG__/slider/download.jpg) center center no-repeat;background-size:cover;width:100%;height:350px;overflow:hidden;position:relative;" href="#">
+    <img src="__IMG__/slider/download.jpg" alt="下载" border="0" usemap="#download" style="position:absolute;left:50%;margin-left:-960px;"/>
+<map name="download" id="download">
+<area shape="rect" coords="846,249,1043,309" href="#" target="_blank" />
+<area shape="rect" coords="1085,250,1283,310" href="#" target="_blank" />
+</map>
+    </div>
+    <else/>
+    <a style="display: block;background:url(__IMG__/slider/other.jpg) center center no-repeat;background-size:cover;width:100%;height:350px;" href="#"></a>
+    </if>
+
+</div><!-- HEAD TITLE -->
+
+<div class="warpper">
+<div class="contains1">
+
+<div class="main" style="background:rgb(247,247,247);"><!-- MAIN -->
+
+            <div class="container">
+
+            {$info['content']}
+
+            </div>
+
+</div><!-- END MAIN -->
+
+</div>
+</div>
+
+<include file="Base:footer" />

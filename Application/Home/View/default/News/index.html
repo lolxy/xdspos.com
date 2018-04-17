@@ -1,0 +1,81 @@
+<include file="Base:header" />
+
+<div class="head_title"><!-- HEAD TITLE -->
+
+   <a style="display: block;background:url(__IMG__/slider/news.jpg) center center no-repeat;background-size:cover;width:100%;height:350px;" href="#"></a>
+
+</div><!-- HEAD TITLE -->
+
+<div class="warpper">
+<div class="contains">
+
+<div class="breadcrumbs"><!-- BREADCRUMBS -->
+
+    <div class="container_12">
+
+        	<span class="weizhi">当前您的位置：</span>
+
+            <a href="__APP__">{$Think.lang.T_RHOME}</a>
+
+            <span>>></span>
+
+            <span class="tit1">{$ccname}</span>
+
+    </div>
+
+</div><!-- END BREADCRUMBS -->
+
+<div class="main"><!-- MAIN -->
+
+        <!-- <div class="grid_12">
+        
+            <dl class="group">CATEGORY FILTER
+        
+                <dd>
+        
+                    <ul class="filter group">
+        
+                        <cat type="n" pid="$_GET[cid]">
+        
+                        <li class="current all">
+        
+                            <a href='{:U("news/index",array("cid"=>$cid))}'>{$name}</a>
+        
+                        </li>
+        
+                        </cat>
+        
+                    </ul>
+        
+                </dd>
+        
+            </dl>END CATEGORY FILTER
+        
+        </div> -->
+
+        <div class="lists">
+
+                <ul>
+
+            <volist name="list" id="vo">
+
+                    <li><a href="{:U('news/read',array('id'=>$vo['id']))}">{$vo.title}</a><span style="float:right">{:date('Y/m/d',$vo['published'])}</span></li>
+
+            </volist>
+
+                </ul>
+
+        </div>
+
+        <div class="pagination"><!-- PAGINATION -->
+
+            <a href="#">{$page}</a>
+
+        </div>
+
+</div><!-- END MAIN -->
+
+</div>
+</div>
+
+<include file="Base:footer" />

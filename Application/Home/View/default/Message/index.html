@@ -1,0 +1,69 @@
+<include file="Base:header" />
+
+<div class="map_container" style="position:relative;"><!-- MAP CONTAINER -->
+
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://ditu.google.cn/maps?f=q&amp;source=embed&amp;hl=zh-CN&amp;geocode=&amp;q={:urlencode($site['address'])}&amp;output=embed"></iframe><br /><small><a href="http://ditu.google.cn/maps?f=q&amp;source=embed&amp;hl=zh-CN&amp;geocode=&amp;q={:urlencode($site['address'])}" style="color:#0000FF;text-align:left;position:absolute;bottom:10px;left:10px;">查看大图</a></small>    <div class="container_12">
+
+    </div>
+
+</div><!-- END BREADCRUMBS -->
+<div class="warpper">
+<div class="contains">
+
+<div class="main"><!-- MAIN -->
+
+    <div class="container_12">
+
+
+
+        <div class="grid_9">
+
+            <div class="contact">
+
+                <form action="{:U('message/add')}" id="contact_form" method="post" />
+
+                <p>{$Think.lang.T_NAME}：<input type="text" name="username" id="name" value="" class="requiredField" /> <label><span class="required">*</span></label></p>
+
+
+
+                <p>{$Think.lang.T_EMAIL}：<input type="text" name="email" id="email" value="" class="requiredField email" /><label><span class="required">*</span></label></p>
+
+
+
+                <p>{$Think.lang.T_MOBILE}：<input type="text" name="moblie" id="moblie" value="" /></p>
+
+
+
+                <p>
+
+                    {$Think.lang.T_MESSAGE_CONTENT}：<textarea name="content" id="message" style="width: 280px; height: 80px;"  class="requiredField"></textarea></p>
+
+                <p>{$Think.lang.T_CODE}：
+
+                    <input class="input" name="verify_code" id="verify_code" type="text" size="20" value="" />
+
+                    <img src="{:U('Base/verify_code')}"  title="看不清？单击此处刷新" onclick="this.src+='?rand='+Math.random();"  style="cursor: pointer; vertical-align: middle;"/>
+
+                </p>
+
+                <input name="submitted" id="submitted" value="提交" class="submit" type="submit" />
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div><!-- END MAIN -->
+</div>
+</div>
+
+<include file="Base:footer" />

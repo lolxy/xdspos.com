@@ -1,0 +1,1642 @@
+[ 2015-03-18T00:04:28+08:00 ] 117.136.11.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001282s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001359s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001025s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000437s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000403s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000366s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000427s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001066s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000813s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001004s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000436s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000432s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-03-18T00:04:32+08:00 ] 117.136.11.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000737s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000796s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000419s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000454s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000371s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000886s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000726s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000908s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000433s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000402s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-03-18T02:26:52+08:00 ] 66.249.71.16 /index.php?s=/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+
+[ 2015-03-18T03:54:12+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001169s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001106s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000975s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000553s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000566s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000535s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000513s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000501s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000512s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000488s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001086s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000850s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001136s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000570s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000505s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000959s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-03-18T03:54:12+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000893s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000806s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000881s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000786s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000422s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000417s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000461s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000397s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000946s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000734s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000878s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000417s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000716s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-03-18T03:54:12+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000807s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000756s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000475s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000768s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000435s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000392s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000919s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000707s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000505s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000844s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000434s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000719s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-03-18T07:57:36+08:00 ] 59.57.32.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001278s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001460s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001124s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000453s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000489s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000665s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000558s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000620s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000634s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000619s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001160s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000606s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000877s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000999s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000452s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000621s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.001169s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-03-18T07:57:36+08:00 ] 101.226.33.217 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000897s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000815s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000833s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000429s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000434s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000454s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000439s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000938s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000730s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000883s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000430s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000754s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-03-18T09:19:24+08:00 ] 180.76.4.52 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001219s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001343s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000954s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000559s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000428s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000558s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000599s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000437s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001211s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000474s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000867s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000998s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000399s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000418s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000856s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-03-18T10:01:22+08:00 ] 110.81.246.227 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.003654s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001079s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001046s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000425s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000437s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001195s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000870s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000433s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001053s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000429s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000400s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-03-18T11:26:44+08:00 ] 180.76.4.206 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001501s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000957s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000991s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000433s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001100s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000872s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001016s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000466s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000915s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-03-18T13:11:50+08:00 ] 220.181.141.66 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001197s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.003288s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001186s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000441s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000536s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001143s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000884s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001185s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000443s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000937s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-03-18T13:15:33+08:00 ] 101.199.108.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001092s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'en-us' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001366s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'en-us' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'en-us' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001035s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000735s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000646s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 105 行.
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001015s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='en-us' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000762s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 153 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001024s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='en-us' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000518s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000596s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 345 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000756s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-03-18T13:23:17+08:00 ] 180.76.4.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001180s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000928s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001013s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000402s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000382s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000428s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000505s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000420s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001081s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000845s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000391s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001020s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000447s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000399s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000879s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-03-18T13:32:19+08:00 ] 66.249.71.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.003377s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000894s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000532s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000403s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001082s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000845s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001010s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000388s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-03-18T15:21:48+08:00 ] 180.76.4.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001178s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000948s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000941s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000448s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000446s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000423s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000646s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000518s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001391s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000866s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000994s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000409s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000481s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.001035s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-03-18T16:14:06+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001228s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001021s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000414s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000402s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000382s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000387s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001083s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000927s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000465s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001282s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000545s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000497s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000975s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-03-18T16:14:06+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000800s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000751s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000779s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000410s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.002034s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000608s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000975s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000668s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000985s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000409s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000433s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000910s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-03-18T16:14:06+08:00 ] 182.140.138.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000829s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000788s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000423s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000913s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000690s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000855s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000403s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000414s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000699s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-03-18T16:25:12+08:00 ] 58.214.54.146 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001280s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000955s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000989s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000454s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000469s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000397s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000503s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001248s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000505s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000875s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.002828s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000466s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000440s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000913s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-03-18T17:21:08+08:00 ] 180.76.4.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001258s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001013s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001018s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000480s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000505s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000538s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000595s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001208s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.001008s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001169s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000457s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000412s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.001145s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-03-18T18:38:55+08:00 ] 220.181.141.66 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001195s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001040s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001099s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000411s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000510s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001109s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000991s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000987s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000417s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.001069s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-03-18T18:39:12+08:00 ] 220.181.132.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001008s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'en-us' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000856s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'en-us' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'en-us' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000466s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000830s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000530s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000615s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 105 行.
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.000941s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='en-us' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000572s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 153 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.000862s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='en-us' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000510s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='en-us'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000525s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 345 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-03-18T18:43:47+08:00 ] 66.249.71.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001170s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000969s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.000958s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000402s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000397s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001106s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000855s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000351s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001037s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000392s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000386s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000911s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-03-18T19:21:54+08:00 ] 180.76.4.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.001242s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.000944s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001006s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000459s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000479s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000415s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001137s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000858s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001010s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000571s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000476s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.001228s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-03-18T21:20:30+08:00 ] 180.76.4.32 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `xzf_ad` [ RunTime:0.005620s ]
+SQL: SELECT * FROM `xzf_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'index' ) ORDER BY sort DESC  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+NOTIC: [2] explode() expects parameter 2 to be string, array given /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 337 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/include/Library/Think/Template.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xzf_tag` [ RunTime:0.001359s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'aboutus' ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `content` FROM `xzf_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'server' ) LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+NOTIC: [8] Undefined index: limit /data/home/qxu1152030287/htdocs/include/Library/Think/Template/TagLib/Weblock.class.php 第 175 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 11 行.
+NOTIC: [8] Undefined variable: info /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 13 行.
+SQL: SHOW COLUMNS FROM `xzf_nav` [ RunTime:0.001332s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='top' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000424s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 51 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='middle' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=58 ) ORDER BY sort DESC  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=59 ) ORDER BY sort DESC  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=54 ) ORDER BY sort DESC  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=60 ) ORDER BY sort DESC  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=55 ) ORDER BY sort DESC  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `xzf_nav` WHERE ( parent_id=57 ) ORDER BY sort DESC  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `xzf_product` [ RunTime:0.001212s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`status`,`published`,`image_id`,`psize`,`summary` FROM `xzf_product` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_images` [ RunTime:0.000864s ]
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SELECT `savepath` FROM `xzf_images` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: m /data/home/qxu1152030287/htdocs/include/Common/functions.php 第 1769 行.
+SQL: SHOW COLUMNS FROM `xzf_news` [ RunTime:0.001240s ]
+SQL: SELECT `id`,`cid`,`title`,`update_time`,`image_id`,`status`,`published`,`summary` FROM `xzf_news` WHERE ( is_recommend=1 AND status=1 AND lang='zh-cn' ) ORDER BY id DESC LIMIT 6   [ RunTime:0.000600s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 201 行.
+SQL: SELECT * FROM `xzf_nav` WHERE ( lang='zh-cn'  AND type='bottom' AND parent_id=0 ) ORDER BY sort DESC  [ RunTime:0.000397s ]
+NOTIC: [2] Invalid argument supplied for foreach() /data/home/qxu1152030287/htdocs/Application/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 349 行.
+SQL: SHOW COLUMNS FROM `xzf_link` [ RunTime:0.000912s ]
+SQL: SELECT * FROM `xzf_link` WHERE ( display=1 ) ORDER BY sort DESC LIMIT 12   [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
